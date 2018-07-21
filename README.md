@@ -1,4 +1,4 @@
-# Intro To Python Programming<img src="https://pydata.org/images/logo.png" width="220px" align="right" />
+# Intro To Python Programming<img src="https://pydata.org/images/logo.png" width="270px" align="right" />
 A repository of containing one script ([`script.py`](script.py)) that is a guide to begin 
 learning how to perform data analysis in the Python programming language. The script 
 covers how to read data, assign data to variables, analyze data, and plot data 
