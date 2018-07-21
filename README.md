@@ -22,7 +22,7 @@ session:
  - Go to [`script.py`](script.py) and copy/paste all the code into your new, blank script
  - Click Tools -> Terminal -> New Terminal
  - In the blinking Terminal window type: `ipython3`
- - Run commands by copy/pasting them into the Terminal window or by pressing CRTL+ALT+ENTER (CMD+OPTION+ENTER for Mac users)
+ - Run commands by copy/pasting them into the Terminal window -or- by pressing `CRTL+ALT+ENTER` (`CMD+OPTION+ENTER` on Mac)
 
 Keep reading for more information on how to set up your computer with Python and RStudio. 
  
@@ -30,20 +30,20 @@ Keep reading for more information on how to set up your computer with Python and
 First, you need to install Python. Python is an immensely popular general purpose 
 programming language with many libraries. Fortunately, an organization called Anaconda, Inc. 
 has made it easy to install just the libraries that we need for doing data analysis. Start 
-by going to https://www.anaconda.com/download. You should see the options to download 
+by going to https://www.anaconda.com/download. You should see the options to download Anaconda 
 for Linux, Mac, or Windows. Follow the command prompts on your screen just like you 
-would install any other software.
+would install any other software. Anaconda is just installing a flavor of Python and 
+Python libraries that are all compatible for data analysis.
 
-Next, you should install RStudio. Wait, Why should I install RStudio? I thought this 
-was a Python programming tutorial! Yes, it's true 99.9% of Python developers don't use 
-RStudio, but if you participated in our R programming workshop you should already have it installed 
-and be familiar with how it looks. If you have it, then you're all set! If you haven't 
-installed RStudio, then keep reading.
+Next, you should install RStudio. Wait. Why should I install RStudio?! I thought this 
+was a Python programming tutorial! Yes, it's true that 99.9% of Python developers do NOT use 
+RStudio, but if you participated in our [R programming workshop](https://github.com/DardenDSC/intro-to-r-programming) 
+you should already have it installed and be familiar with how it looks. If you have it, 
+then you're all set! If you haven't installed RStudio, then keep reading.
 
 When you installed the Anaconda distribution, you only installed the software. It 
 is hard to code directly to the software, so RStudio is an interface (other software) 
-that makes it easier to write code and execute it. Go to https://www.rstudio.com/products/rstudio/download/#download and pick the installer 
-for your operating system. Again, follow the prompts like you would install any 
+that makes it easier to write code and execute it. Go to https://www.rstudio.com/products/rstudio/download/#download and pick the installer for your operating system. Again, follow the prompts like you would install any 
 other software on your computer. 
 
 If you have trouble installing Python via the Anaconda distribution or RStudio, 
