@@ -138,11 +138,11 @@ df_tracks[['track_name','duration_ms']].iloc[:2]
 
 # the different data structures in Python --------------------------------------
 
-# In Python there are more than just rectangles of data. There are a few data structures: 
-#  - List/Array (a collection of values of the same data type, e.g. a bunch of numbers, or a bunch of words)
-#  - Dictionaries (a collection of values that could be of different data types, e.g. a bunch of numbers and words)
-#  - Tuple (a collection of values of different data types, e.g. numbers and words)
-#  - DataFrames (a rectangle of rows and columns of different data types, e.g. numbers and words)
+# In Python there are more than just rectangles of data. There are a few more basic data structures: 
+#  - List/Array (a mutable collection of different data types, emphasizing order)
+#  - Dictionaries (a mutable key-value collection of different data types, emphasizing index over order)
+#  - Tuple (an immutable collection of different data types emphasizing structure over order)
+#  - DataFrames (a rectangle of rows and columns of different data types, similar to dictionary of serieses)
 
 # You can check if a variable is a certain type of data structure by using "isinstance()". 
 # In our case df_tracks is not a list or tuple, it's a pandas DataFrame and that can be 
@@ -154,10 +154,9 @@ type(df_tracks)
 
 # the different primitive data types in Python ---------------------------------
 
-# In Python there are even simpler types of data called primitive data types. They 
-# make up a larger structure, such as a DataFrame:
-# The primitive different types are: 
-#  - String (str) - a single letter or words 
+# In Python there are even simpler types of data called primitive data types. Primitive data types 
+# usually make up a larger structure, such as a DataFrame. The primitive different types are: 
+#  - String (str) - a single letter or word 
 #  - Integer (int) - whole numbers (no decimals) from neg infinity to infinity
 #  - Float - real numbers (with decimals) from neg infinity to infinity
 #  - Boolean (bool) - values that only take on TRUE or FALSE
@@ -174,12 +173,14 @@ isinstance(False, bool)
 isinstance("FALSE", bool)
 isinstance("FALSE", str)
 
+# searching documentation, help, and tab-completion ----------------------------
+
 # Wait! How do we know about all these functions. You can Google them and see 
 # examples of other people's code which is a good step, but if you need a reminder 
 # on the definition of a function and you already know the name, then you can 
 # find the documentation by typing help() in the console like this: 
 help()
-# type "q" to quit the help
+# Remember that you must type "q" to quit the help!
 
 # You can also directly search for a function like this: 
 help(pd.read_csv)
@@ -191,6 +192,11 @@ dir(pd)
 # Pro Tip: You can quickly scroll to the top/bottom and page throughout the 
 # help documentation by using the HOME and END functions on Windows or by using the following: 
 # FN+UP (page up), FN+DOWN (page down), FN+LEFT (top of doc), FN+RIGHT (bottom of doc)
+
+# You can also have functions completed for you, or search within functions by 
+# starting to type a function and then pressing the TAB.
+# For example, type "pd.read" (then press TAB)
+
 
 # working with missing data in Python ------------------------------------------
 
