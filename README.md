@@ -18,9 +18,9 @@ the tutorial on learning to perform data analysis in the R programming language.
 The best way to learn Python is to try it out for yourself. After downloading Python and the 
 RStudio development tool, open up RStudio and start running the code to see what it does. For this 
 session: 
- - Open up RStudio, click File -> New File -> Text File
+ - Open up RStudio, click `File -> New File -> Text File`
  - Go to [`script.py`](script.py) and copy/paste all the code into your new, blank script
- - Click Tools -> Terminal -> New Terminal
+ - Click `Tools -> Terminal -> New Terminal`
  - In the blinking Terminal window type: `ipython3`
  - Run commands by copy/pasting them into the Terminal window -or- by pressing `CRTL+ALT+ENTER` (`CMD+OPTION+ENTER` on Mac)
 
@@ -31,7 +31,7 @@ First, you need to install Python. Python is an immensely popular general purpos
 programming language with many libraries. Fortunately, an organization called Anaconda, Inc. 
 has made it easy to install just the libraries that we need for doing data analysis. Start 
 by going to https://www.anaconda.com/download. You should see the options to download Anaconda 
-for Linux, Mac, or Windows. Follow the command prompts on your screen just like you 
+for Windows, Mac and Linux. Follow the command prompts on your screen just like you 
 would install any other software. Anaconda is just installing a flavor of Python and 
 Python libraries that are all compatible for data analysis.
 
